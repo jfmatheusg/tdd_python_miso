@@ -1,3 +1,4 @@
 class Calculadora:
     def sumar(cadena):
-        pass
+        return 0
+

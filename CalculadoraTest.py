@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-import Calculadora
+from Calculadora import Calculadora
 
 class CalculadoraTest(TestCase):
     def test_sumar(self):
