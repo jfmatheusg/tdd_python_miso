@@ -1,2 +1,4 @@
-# tdd_python_miso
-Kata TDD
+# Katas Procesos Agiles de Desarrollo
+
+* Kata TDD (calculadora)
+* Kata REST Django (portafolio)
