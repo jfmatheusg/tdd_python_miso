@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from Calculadora import Calculadora
+from calculadora.Calculadora import Calculadora
 
 class CalculadoraTest(TestCase):
     def test_sumar(self):
@@ -21,3 +21,7 @@ class CalculadoraTest(TestCase):
 
     def test_sumar_cadenaconSeparadores(self):
         self.assertEqual(Calculadora.sumar(("5,2&4:1:2&8")), 22, "Varios numeros con dif sep")
+
+# if tam > 3:
+#    return tam, int(min)
+# else:
